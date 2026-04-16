@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ToDo App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>ToDo App</h1>
+
+<input id="title" placeholder="Titel" />
+<input id="category" placeholder="Kategorie" />
+<button onclick="addTask()">Add</button>
+
+<br><br>
+
+<button onclick="loadTasks()">Alle</button>
+<button onclick="filter('open')">Offen</button>
+<button onclick="filter('done')">Erledigt</button>
+
+<input id="filterCat" placeholder="Kategorie filtern" />
+<button onclick="filterCategory()">Filter Kategorie</button>
+
+<ul id="list"></ul>
+
+<script src="app.js"></script>
+</body>
+</html>
