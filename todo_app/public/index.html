@@ -1,28 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ToDo App</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<h1>ToDo App</h1>
+  <div class="container">
 
-<input id="title" placeholder="Titel" />
-<input id="category" placeholder="Kategorie" />
-<button onclick="addTask()">Add</button>
+    <div class="card">
+      <h1>📝 ToDo Manager</h1>
+      <p class="subtitle">
+        Funktionale ToDo Web App
+      </p>
 
-<br><br>
+      <div class="input-group">
+        <input id="title" placeholder="Aufgabe eingeben" />
+        <input id="category" placeholder="Kategorie" />
+        <button class="add-btn" onclick="addTask()">
+          Hinzufügen
+        </button>
+      </div>
+    </div>
 
-<button onclick="loadTasks()">Alle</button>
-<button onclick="filter('open')">Offen</button>
-<button onclick="filter('done')">Erledigt</button>
+    <div class="card filters">
+      <button onclick="loadTasks()">Alle</button>
+      <button onclick="filter('open')">Offen</button>
+      <button onclick="filter('done')">Erledigt</button>
 
-<input id="filterCat" placeholder="Kategorie filtern" />
-<button onclick="filterCategory()">Filter Kategorie</button>
+      <input
+        id="filterCat"
+        placeholder="Kategorie filtern"
+      />
 
-<ul id="list"></ul>
+      <button onclick="filterCategory()">
+        Kategorie suchen
+      </button>
+    </div>
 
-<script src="app.js"></script>
+    <div class="card">
+      <h2>📋 Aufgaben</h2>
+      <ul id="list"></ul>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
