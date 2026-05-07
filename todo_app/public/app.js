@@ -26,3 +26,84 @@ const loadTasks = async () => {
 };
 
 // add
+const addTask = async () => {
+
+  const title = document.getElementById("title").value;
+
+  const category = document.getElementById("category").value;
+
+  await fetch(`${API}/tasks`, {
+
+    method: "POST",
+
+    headers: { "Content-Type": "application/json" },
+
+    body: JSON.stringify({ title, category }),
+
+  });
+
+  loadTasks();
+
+};
+
+// Delete
+
+const del = async (id) => {
+
+  await fetch(`${API}/tasks/${id}`, {
+
+    method: "DELETE",
+
+  });
+
+  loadTasks();
+
+};
+
+// Done
+
+const done = async (id) => {
+
+  await fetch(`${API}/tasks/${id}`, {
+
+    method: "PATCH",
+
+  });
+
+  loadTasks();
+
+};
+
+// Filter
+
+const filter = async (type) => {
+
+  const res = await fetch(`${API}/tasks/filter/${type}`);
+
+  const data = await res.json();
+
+  render(data);
+
+};
+
+// Kategorie Filter
+
+const filterCategory = async () => {
+
+  const value = document.getElementById("filterCat").value;
+
+  const res = await fetch(
+
+    `${API}/tasks/filter/category?value=${value}`
+
+  );
+
+  const data = await res.json();
+
+  render(data);
+
+};
+
+// Start
+
+loadTasks();
