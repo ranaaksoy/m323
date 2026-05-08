@@ -1,0 +1,14 @@
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/bin/Debug/net10.0/TerminalPacman
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/bin/Debug/net10.0/TerminalPacman.deps.json
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/bin/Debug/net10.0/TerminalPacman.runtimeconfig.json
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/bin/Debug/net10.0/TerminalPacman.dll
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/bin/Debug/net10.0/TerminalPacman.pdb
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/obj/Debug/net10.0/TerminalPacman.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/obj/Debug/net10.0/TerminalPacman.AssemblyInfoInputs.cache
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/obj/Debug/net10.0/TerminalPacman.AssemblyInfo.cs
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/obj/Debug/net10.0/TerminalPacman.csproj.CoreCompileInputs.cache
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/obj/Debug/net10.0/TerminalPacman.dll
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/obj/Debug/net10.0/refint/TerminalPacman.dll
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/obj/Debug/net10.0/TerminalPacman.pdb
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/obj/Debug/net10.0/TerminalPacman.genruntimeconfig.cache
+/Users/ranaaksoy/Documents/tbz/TerminalPacman/obj/Debug/net10.0/ref/TerminalPacman.dll
